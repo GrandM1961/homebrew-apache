@@ -23,6 +23,9 @@ class ModSuexec < Formula
   when :sierra
     url "https://archive.apache.org/dist/httpd/httpd-2.4.23.tar.bz2"
     sha256 "0c1694b2aad7765896faf92843452ee2555b9591ae10d4f19b245f2adfe85e58"
+  when :high sierra
+    url "https://archive.apache.org/dist/httpd/httpd-2.4.26.tar.bz2"
+    sha256 "a07eb52fafc879e0149d31882f7da63173e72df4478db4dc69f7a775b663d387"
   end
 
   bottle :unneeded
