@@ -6,6 +6,7 @@ class Httpd24 < Formula
   revision 2
 
   bottle do
+    sha256 "a07eb52fafc879e0149d31882f7da63173e72df4478db4dc69f7a775b663d387" => :high_sierra
     sha256 "3cf05ee1dae35c93aadc8c27d32fa88b998af6e7e387420c0b372e38d298b308" => :sierra
     sha256 "41cd39db06ddbbc941e736c0700a9b218899239259eafb900f35f843b5a72cea" => :el_capitan
     sha256 "bf5abcffd2fbfe3b592b21f581a7cff8e17ded70fd2d827dc0bb0fd33fd8af18" => :yosemite
